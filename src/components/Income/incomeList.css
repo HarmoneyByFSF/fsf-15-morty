@@ -1,0 +1,13 @@
+.container {
+    padding-top: 5%;
+}
+
+.card {
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.card-header {
+    background-color: #C1ECE4;
+}

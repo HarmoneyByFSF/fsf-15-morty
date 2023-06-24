@@ -1,0 +1,41 @@
+[
+    {
+        "Title" : "Scenario 1",
+        "Question" : "You're planning to buy a new video game that costs $60. You currently have $100 in your savings account. Your friend suggests that you buy the game now and worry about saving later. On the other hand, your parents advise you to save your money for the future.Which option is the best choice for managing your money wisely?",
+        "answer1" : {
+            "detail": "Buy the video game now and worry about saving later.",
+            "key": 1
+        },
+        "answer2" : {
+            "detail": "Save your money for the future and delay buying the video game.",
+            "key": 2
+        },
+        "correct" : 2
+    },
+    {
+        "Title" : "Scenario 2",
+        "Question" : "You're invited to a friend's birthday party, and you're thinking about what gift to give. You have two options in mind:",
+        "answer1" : {
+            "detail": "A trendy gadget that costs $50.",
+            "key": 1
+        },
+        "answer2" : {
+            "detail": "A personalized photo album that costs $25",
+            "key": 2
+        },
+        "correct" : 2
+    },
+    {
+        "Title": "Scenario 3",
+        "Question" : "You have been saving money for a few months, and now you want to reward yourself by purchasing a new pair of sneakers. There are two options that catch your eye",
+        "answer1" : {
+            "detail": "Branded sneakers priced at $120. ",
+            "key": 1
+        },
+        "answer2" : {
+            "detail": "Non-branded sneakers priced at $60.",
+            "key": 2
+        },
+        "correct" : 2
+    }    
+]

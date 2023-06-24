@@ -1,0 +1,12 @@
+.piechartcontainer {
+    height: 40vh;
+    width: 40vh;
+
+}
+
+@media (max-width: 600px) {
+    .piechartcontainer {
+        height: 25vh;
+        width: 25vh;
+    }
+}

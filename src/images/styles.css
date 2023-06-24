@@ -1,0 +1,155 @@
+/* Common CSS */
+.playgame, 
+.introduction, 
+.card-deck {
+    background-color: var(--darkblue);
+    color: var(--teal);
+}
+
+/* Border Radius */
+.introduction #intro_content,
+.playgame_footer button,
+.playgame_footer button:hover, 
+.card,
+.card-footer button,
+.card-footer button:hover
+{
+    border-radius: 12px;
+    border:solid;
+}
+
+/* Common text-alignment CSS */
+.introduction, 
+.playgame_option,
+.playgame_footer,
+.card-title, 
+.card-body, 
+.card-footer {
+    text-align: center;
+}
+
+/* main content CSS */
+.main-content{
+    display: flex;
+    padding-bottom: 2%;
+}
+
+/* Level Options CSS  */
+.options {
+    padding-top: 3%;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    color: var(--teal);
+}
+
+/* Level Button CSS */
+.options input {
+    width: 50px;
+    height: 20px;
+    margin-left: 35%;
+}
+
+/* Introduction CSS */
+.introduction #intro_header {
+    padding-top: 2%;
+}
+
+/* Introduction Text CSS   */
+.introduction #intro_content {
+    margin-top: 15px;
+    padding: 5px;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-color: var(--teal);
+    background-color: var(--navy);
+}   
+
+/* playgame CSS */
+.playgame {
+    width: 50%;
+    height: 50%;
+    padding-bottom: 3%;
+}
+
+/* Playgame header Container CSS */
+.playgame_header {
+    padding-top: 10%;
+    padding-left: 15%;
+    color: var(--teal);
+}
+
+.playgame_option {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+/*  Playgame CSS footer */
+.playgame_footer {
+    padding-top: 2%;
+}
+
+/* Playgame footer Button */
+.playgame_footer button {
+    background-color: var(--teal);
+    color: var(--darkblue);
+    border-color: var(--darknavy);
+    width: 220px;
+    height: 60px;
+    font-size: 35px;
+}
+
+/* Button Hover */
+.playgame_footer button:hover, .card-footer button:hover {
+    background-color: var(--navy);
+    color:  var(--teal);
+}
+
+/* Carousel CSS */
+.carousel-container {
+    padding-right: 5%;
+    width: auto;
+    height: auto;
+    padding-top: 2%;
+    margin-top: 0.5%;
+    margin-left: 7%;
+}
+
+/* Card CSS */
+.card-deck {
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 0px;
+}
+
+/* Card Layout CSS */
+.card {
+    background-color: var(--navy);
+    color:var(--teal);
+    border-color: var(--teal);
+}
+
+/* Card Hover CSS */
+.card:hover {
+    border-color: var(--navy);
+    background-color:  var(--teal)  ;
+    color: var(--navy);
+}
+
+/* Card Body CSS */
+.card-body {
+    margin-bottom: 5%;
+}
+
+/* Card Footer Button CSS */
+.card-footer button {
+    background-color: var(--teal);
+    color: var(--darkblue);
+    border-color: var(--darknavy);
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+} 
+

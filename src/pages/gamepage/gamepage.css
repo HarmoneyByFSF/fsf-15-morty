@@ -1,0 +1,14 @@
+.incomelisting > button {
+    color: white;
+    background-color: #6d9b63;
+}
+
+.expenselisting > button {
+    color: white;
+    background-color: #d54848;
+}
+
+.imgdimension {
+    height: 90%;
+    width: 60%;
+}
